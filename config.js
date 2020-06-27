@@ -5,9 +5,9 @@ var data = JSON.stringify({
 
 const config = {
     method: 'post',
-    url: 'https://zdj8yvo6e6.execute-api.ap-south-1.amazonaws.com/dev/graphql',
+    url: '##',
     headers: {
-        'x-api-key': 'TNEQfUCydy7owQKs5NAIe6aAQjgJaOzw5fFrutCe',
+        'x-api-key': '###',
         'Content-Type': 'application/json'
     },
     data: data
