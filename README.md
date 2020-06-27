@@ -5,5 +5,6 @@ The backend code is available<strong> <a href="https://github.com/nalayakenginee
 This is based on the RESTAPI of Harry Potter available at:<br />
 <strong> <a href="https://potterapi.com">Harry Potter Api</a> </strong>
 
-### Output
-If you Click on the sorting Hat. It fetches
+# Output
+
+<strong><a href="https://sortinghat.bharatbhushan.me">Sorting Hat </a></strong>
