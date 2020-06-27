@@ -7,21 +7,13 @@ import Hufflepuff from '../assets/audio/Hufflepuff.mp3';
 import Ravenclaw from '../assets/audio/Ravenclaw.mp3';
 import Slytherin from '../assets/audio/Slytherin.mp3';
 
+import config from '../../config';
+
+
 const hatclickHandler = () => {
 
-    var data = JSON.stringify({
-        query: 'query {\n sortingHat\n}',
-        variables: {}
-    });
-    var config = {
-        method: 'post',
-        url: 'https://zdj8yvo6e6.execute-api.ap-south-1.amazonaws.com/dev/graphql',
-        headers: {
-            'x-api-key': 'TNEQfUCydy7owQKs5NAIe6aAQjgJaOzw5fFrutCe',
-            'Content-Type': 'application/json'
-        },
-        data: data
-    };
+
+
     axios(config)
         .then(function (response) {
             var result = response.data.data.sortingHat;
